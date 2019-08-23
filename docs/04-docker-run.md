@@ -59,7 +59,19 @@ As you can see, we have two stopped containers and we can remove it by using the
 docker rm 8363d62f8149 c6905638d5b3
 ```
 
-Besides leaving the container in the stopped state, we can run a container and throw away when finished by specifying `--rm` option:
+Besides leaving the container in the stopped state, we can run a container and throw it away when finished by specifying `--rm` option:
 ```bash
 docker run --rm busybox echo "Hello from busybox"
+```
+
+## Start an interactive shell inside a busybox container
+The `-it` option attaches us to an interactive tty inside container:
+```bash
+docker run -it --rm busybox sh
+```
+
+Type `exit` to exit the interactive tty command session:
+```bash
+# Within container
+exit
 ```
