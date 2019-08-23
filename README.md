@@ -9,3 +9,4 @@ The target audience for this tutorial will be the rails developers who are plann
 ## Labs
 
 * [Prerequisites](docs/01-prerequisites.md)
+* [Container and Image](02-container-and-image.md)
