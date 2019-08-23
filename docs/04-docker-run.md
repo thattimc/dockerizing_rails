@@ -6,7 +6,8 @@ The docker run command line using the following format:
 docker run [options] <image> <command>
 ```
 
-Let say if you want to execute the echo command in busybox container. You can type the following command:
+## Execute the echo command in busybox container
+You can type the following command:
 ```bash
 docker run busybox echo "Hello from busybox"
 ```
@@ -19,4 +20,19 @@ ee153a04d683: Pull complete
 Digest: sha256:9f1003c480699be56815db0f8146ad2e22efea85129b5b5983d0e0fb52d9ab70
 Status: Downloaded newer image for busybox:latest
 Hello from busybox
+```
+
+To verify existing images
+```bash
+docker images
+```
+
+To verify running containers
+```bash
+docker ps
+```
+
+To verify containers including the stopped ones
+```bash
+docker ps -a
 ```
