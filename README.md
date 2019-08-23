@@ -11,3 +11,4 @@ The target audience for this tutorial will be the rails developers who are plann
 * [Prerequisites](docs/01-prerequisites.md)
 * [Container and Image](docs/02-container-and-image.md)
 * [Hello World](docs/03-hello-world.md)
+* [Docker Run](docs/04-docker-run.md)
