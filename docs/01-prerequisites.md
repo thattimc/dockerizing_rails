@@ -7,3 +7,10 @@ You will need docker id for storing your docker images in dockerhub. [Let sign u
 
 ## Docker CE
 Make sure you have installed the docker in your local machine. [Choose one in here](https://hub.docker.com/search/?q=&type=edition&offering=community)
+
+## Verify docker and docker-compose versions
+Run the following commands to verify your docker and docker-compose version:
+```bash
+docker version
+docker-compose -v
+```
