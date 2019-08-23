@@ -4,7 +4,7 @@ This tutorial walks you through to dockerizing your rails application before dep
 
 ## Target Audience
 
-Rails developers are planning to a dockerizing rails application before deploying to the cloud.
+The target audience for this tutorial will be the rails developers who are planning to a dockerizing their rails application before deploying to the cloud.
 
 ## Labs
 
